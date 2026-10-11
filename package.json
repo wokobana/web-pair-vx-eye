@@ -1,0 +1,32 @@
+{
+  "name": "𝗩𝗫 𝗠𝗗 𝗕𝗢𝗧",
+  "version": "2.0.0",
+  "description": "WhatsApp MD bot with public Telegram pairing",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "engines": {
+    "node": ">=20"
+  },
+  "dependencies": {
+    "@distube/ytdl-core": "^4.14.4",
+    "@ffmpeg-installer/ffmpeg": "^1.1.0",
+    "@napi-rs/canvas": "^0.1.80",
+    "@whiskeysockets/baileys": "7.0.0-rc14",
+    "axios": "^1.13.6",
+    "file-type": "^21.1.1",
+    "fluent-ffmpeg": "^2.1.3",
+    "fs-extra": "^11.3.2",
+    "gifted-btns": "^1.0.2",
+    "jimp": "^1.6.1",
+    "node-telegram-bot-api": "^0.66.0",
+    "node-webpmux": "^3.2.1",
+    "pino": "^9.0.0",
+    "sharp": "^0.33.5",
+    "wa-sticker-formatter": "^4.4.4",
+    "youtube-dl-exec": "^3.1.13",
+    "youtubei.js": "^18.0.0",
+    "yt-search": "^2.12.1"
+  }
+}
