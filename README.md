@@ -4,8 +4,9 @@
 1. Node.js 18+ aur `ffmpeg` (song/sticker/video conversion ke liye recommended).
 2. YouTube ke liye server par `yt-dlp` install ho to downloader ka fallback bhi active rahega; `yt-dlp` na ho to bot `@distube/ytdl-core` fallback use karega.
 3. Telegram par @BotFather se bot banao, token lo.
-4. `config.js` me change karo: botName, ownerName, ownerNumber, prefix, tgToken,
-   **channelName / channelJid / channelLink**, menuImage, menuAudio, welcome/goodbye text.
+4. Environment variable `TG_TOKEN` set karo (Telegram bot token ko source code me hardcode na karein).
+   `config.js` me botName, ownerName, ownerNumber, prefix, **channelName / channelJid / channelLink**,
+   menuImage, menuAudio, welcome/goodbye text change karo.
 5. `assets/menu.mp3` me apna song rakho (menu ke baad ye jayega).
 6. `npm install` -> `npm start`
 
